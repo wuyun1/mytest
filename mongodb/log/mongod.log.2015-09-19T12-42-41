@@ -1,0 +1,66 @@
+2015-09-19T20:32:13.681+0800 I JOURNAL  [initandlisten] journal dir=data\journal
+2015-09-19T20:32:13.683+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-09-19T20:32:13.818+0800 I JOURNAL  [durability] Durability thread started
+2015-09-19T20:32:13.819+0800 I JOURNAL  [journal writer] Journal writer thread started
+2015-09-19T20:32:13.987+0800 I CONTROL  [initandlisten] MongoDB starting : pid=18800 port=12345 dbpath=data 64-bit host=DESKTOP-SUP0V1H
+2015-09-19T20:32:13.987+0800 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-09-19T20:32:13.988+0800 I CONTROL  [initandlisten] db version v3.0.6
+2015-09-19T20:32:13.989+0800 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-09-19T20:32:13.990+0800 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-09-19T20:32:13.990+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-09-19T20:32:13.990+0800 I CONTROL  [initandlisten] options: { config: "conf/mongod.conf", net: { port: 12345 }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2015-09-19T20:32:13.994+0800 I INDEX    [initandlisten] allocating new ns file data\local.ns, filling with zeroes...
+2015-09-19T20:32:14.438+0800 I STORAGE  [FileAllocator] allocating new datafile data\local.0, filling with zeroes...
+2015-09-19T20:32:14.438+0800 I STORAGE  [FileAllocator] creating directory data\_tmp
+2015-09-19T20:32:14.444+0800 I STORAGE  [FileAllocator] done allocating datafile data\local.0, size: 64MB,  took 0.002 secs
+2015-09-19T20:32:14.466+0800 I NETWORK  [initandlisten] waiting for connections on port 12345
+2015-09-19T20:36:12.445+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65436 #1 (1 connection now open)
+2015-09-19T20:36:51.863+0800 I NETWORK  [conn1] end connection 127.0.0.1:65436 (0 connections now open)
+2015-09-19T20:37:46.217+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65443 #2 (1 connection now open)
+2015-09-19T20:37:46.217+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65444 #3 (2 connections now open)
+2015-09-19T20:37:46.218+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65445 #4 (3 connections now open)
+2015-09-19T20:37:46.218+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65446 #5 (4 connections now open)
+2015-09-19T20:37:46.218+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65447 #6 (5 connections now open)
+2015-09-19T20:37:54.305+0800 I NETWORK  [conn2] end connection 127.0.0.1:65443 (4 connections now open)
+2015-09-19T20:37:54.305+0800 I NETWORK  [conn3] end connection 127.0.0.1:65444 (3 connections now open)
+2015-09-19T20:37:54.305+0800 I NETWORK  [conn4] end connection 127.0.0.1:65445 (2 connections now open)
+2015-09-19T20:37:54.306+0800 I NETWORK  [conn5] end connection 127.0.0.1:65446 (1 connection now open)
+2015-09-19T20:37:54.306+0800 I NETWORK  [conn6] end connection 127.0.0.1:65447 (0 connections now open)
+2015-09-19T20:38:05.251+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65448 #7 (1 connection now open)
+2015-09-19T20:38:05.254+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65449 #8 (2 connections now open)
+2015-09-19T20:38:05.255+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65450 #9 (3 connections now open)
+2015-09-19T20:38:05.256+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65451 #10 (4 connections now open)
+2015-09-19T20:38:05.257+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65452 #11 (5 connections now open)
+2015-09-19T20:38:17.327+0800 I NETWORK  [conn10] end connection 127.0.0.1:65451 (4 connections now open)
+2015-09-19T20:38:17.328+0800 I NETWORK  [conn8] end connection 127.0.0.1:65449 (3 connections now open)
+2015-09-19T20:38:17.328+0800 I NETWORK  [conn7] end connection 127.0.0.1:65448 (2 connections now open)
+2015-09-19T20:38:17.329+0800 I NETWORK  [conn9] end connection 127.0.0.1:65450 (1 connection now open)
+2015-09-19T20:38:17.330+0800 I NETWORK  [conn11] end connection 127.0.0.1:65452 (0 connections now open)
+2015-09-19T20:38:19.821+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65453 #12 (1 connection now open)
+2015-09-19T20:38:19.823+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65454 #13 (2 connections now open)
+2015-09-19T20:38:19.825+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65455 #14 (3 connections now open)
+2015-09-19T20:38:19.825+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65456 #15 (4 connections now open)
+2015-09-19T20:38:19.826+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65457 #16 (5 connections now open)
+2015-09-19T20:38:22.584+0800 I NETWORK  [conn16] end connection 127.0.0.1:65457 (4 connections now open)
+2015-09-19T20:38:22.584+0800 I NETWORK  [conn14] end connection 127.0.0.1:65455 (3 connections now open)
+2015-09-19T20:38:22.584+0800 I NETWORK  [conn12] end connection 127.0.0.1:65453 (2 connections now open)
+2015-09-19T20:38:22.585+0800 I NETWORK  [conn13] end connection 127.0.0.1:65454 (1 connection now open)
+2015-09-19T20:38:22.585+0800 I NETWORK  [conn15] end connection 127.0.0.1:65456 (0 connections now open)
+2015-09-19T20:38:29.770+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65458 #17 (1 connection now open)
+2015-09-19T20:39:58.843+0800 I COMMAND  [conn17] terminating, shutdown command received
+2015-09-19T20:39:58.843+0800 I CONTROL  [conn17] now exiting
+2015-09-19T20:39:58.843+0800 I NETWORK  [conn17] shutdown: going to close listening sockets...
+2015-09-19T20:39:58.843+0800 I NETWORK  [conn17] closing listening socket: 536
+2015-09-19T20:39:58.844+0800 I NETWORK  [conn17] shutdown: going to flush diaglog...
+2015-09-19T20:39:58.844+0800 I NETWORK  [conn17] shutdown: going to close sockets...
+2015-09-19T20:39:58.844+0800 I STORAGE  [conn17] shutdown: waiting for fs preallocator...
+2015-09-19T20:39:58.844+0800 I STORAGE  [conn17] shutdown: final commit...
+2015-09-19T20:39:58.908+0800 I JOURNAL  [conn17] journalCleanup...
+2015-09-19T20:39:58.908+0800 I JOURNAL  [conn17] removeJournalFiles
+2015-09-19T20:39:58.909+0800 I JOURNAL  [conn17] Terminating durability thread ...
+2015-09-19T20:39:58.950+0800 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-09-19T20:39:58.950+0800 I JOURNAL  [durability] Durability thread stopped
+2015-09-19T20:39:58.950+0800 I STORAGE  [conn17] shutdown: closing all files...
+2015-09-19T20:39:58.953+0800 I STORAGE  [conn17] closeAllFiles() finished
+2015-09-19T20:39:58.953+0800 I STORAGE  [conn17] shutdown: removing fs lock...
+2015-09-19T20:39:58.954+0800 I CONTROL  [conn17] dbexit:  rc: 0

@@ -1,0 +1,84 @@
+2015-09-19T20:42:41.242+0800 I JOURNAL  [initandlisten] journal dir=data\journal
+2015-09-19T20:42:41.242+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-09-19T20:42:41.388+0800 I JOURNAL  [durability] Durability thread started
+2015-09-19T20:42:41.389+0800 I JOURNAL  [journal writer] Journal writer thread started
+2015-09-19T20:42:41.575+0800 I CONTROL  [initandlisten] MongoDB starting : pid=17504 port=12345 dbpath=data 64-bit host=DESKTOP-SUP0V1H
+2015-09-19T20:42:41.576+0800 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-09-19T20:42:41.576+0800 I CONTROL  [initandlisten] db version v3.0.6
+2015-09-19T20:42:41.577+0800 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-09-19T20:42:41.577+0800 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-09-19T20:42:41.577+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-09-19T20:42:41.578+0800 I CONTROL  [initandlisten] options: { config: "conf/mongod.conf", net: { port: 12345 }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2015-09-19T20:42:41.601+0800 I NETWORK  [initandlisten] waiting for connections on port 12345
+2015-09-19T20:43:23.822+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65482 #1 (1 connection now open)
+2015-09-19T20:47:16.683+0800 I INDEX    [conn1] allocating new ns file data\imooc.ns, filling with zeroes...
+2015-09-19T20:47:17.393+0800 I STORAGE  [FileAllocator] allocating new datafile data\imooc.0, filling with zeroes...
+2015-09-19T20:47:17.393+0800 I STORAGE  [FileAllocator] creating directory data\_tmp
+2015-09-19T20:47:17.396+0800 I STORAGE  [FileAllocator] done allocating datafile data\imooc.0, size: 64MB,  took 0.001 secs
+2015-09-19T20:47:17.409+0800 I WRITE    [conn1] insert imooc.imooc_collection query: { _id: ObjectId('55fd59541babe95c93e1fa8e'), x: 1.0 } ninserted:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, MMAPV1Journal: { acquireCount: { w: 8 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 396 } }, Database: { acquireCount: { w: 1, W: 1 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 4 } } } 725ms
+2015-09-19T20:47:17.409+0800 I COMMAND  [conn1] command imooc.$cmd command: insert { insert: "imooc_collection", documents: [ { _id: ObjectId('55fd59541babe95c93e1fa8e'), x: 1.0 } ], ordered: true } keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, MMAPV1Journal: { acquireCount: { w: 8 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 396 } }, Database: { acquireCount: { w: 1, W: 1 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 4 } } } 726ms
+2015-09-19T20:49:04.569+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65505 #2 (2 connections now open)
+2015-09-19T20:49:04.570+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:65506 #3 (3 connections now open)
+2015-09-19T20:49:04.759+0800 I NETWORK  [conn2] end connection 127.0.0.1:65505 (2 connections now open)
+2015-09-19T20:49:05.203+0800 I NETWORK  [conn3] end connection 127.0.0.1:65506 (1 connection now open)
+2015-09-19T20:58:33.535+0800 I QUERY    [conn1] assertion 17287 Can't canonicalize query: BadValue bad sort specification ns:imooc.imooc_collection query:{ query: {}, orderby: { x: 0.0 } }
+2015-09-19T20:58:33.535+0800 I QUERY    [conn1]  ntoskip:3 ntoreturn:2
+2015-09-19T20:58:41.283+0800 I QUERY    [conn1] assertion 17287 Can't canonicalize query: BadValue bad sort specification ns:imooc.imooc_collection query:{ query: {}, orderby: { x: 3.0 } }
+2015-09-19T20:58:41.284+0800 I QUERY    [conn1]  ntoskip:3 ntoreturn:2
+2015-09-19T21:06:43.237+0800 I COMMAND  [conn1] CMD: drop imooc.imooc_collection
+2015-09-19T21:18:26.476+0800 I NETWORK  [conn1] end connection 127.0.0.1:65482 (0 connections now open)
+2015-09-19T21:19:09.748+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49474 #4 (1 connection now open)
+2015-09-19T21:19:09.750+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49475 #5 (2 connections now open)
+2015-09-19T21:19:09.752+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49476 #6 (3 connections now open)
+2015-09-19T21:19:09.752+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49477 #7 (4 connections now open)
+2015-09-19T21:19:09.753+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49478 #8 (5 connections now open)
+2015-09-19T21:19:15.478+0800 I NETWORK  [conn5] end connection 127.0.0.1:49475 (4 connections now open)
+2015-09-19T21:19:15.479+0800 I NETWORK  [conn6] end connection 127.0.0.1:49476 (3 connections now open)
+2015-09-19T21:19:15.479+0800 I NETWORK  [conn4] end connection 127.0.0.1:49474 (2 connections now open)
+2015-09-19T21:19:15.480+0800 I NETWORK  [conn7] end connection 127.0.0.1:49477 (1 connection now open)
+2015-09-19T21:19:15.480+0800 I NETWORK  [conn8] end connection 127.0.0.1:49478 (0 connections now open)
+2015-09-19T21:19:53.725+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49479 #9 (1 connection now open)
+2015-09-19T21:19:53.727+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49480 #10 (2 connections now open)
+2015-09-19T21:19:53.729+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49481 #11 (3 connections now open)
+2015-09-19T21:19:53.730+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49482 #12 (4 connections now open)
+2015-09-19T21:19:53.731+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49483 #13 (5 connections now open)
+2015-09-19T21:19:56.226+0800 I NETWORK  [conn12] end connection 127.0.0.1:49482 (4 connections now open)
+2015-09-19T21:19:56.226+0800 I NETWORK  [conn9] end connection 127.0.0.1:49479 (4 connections now open)
+2015-09-19T21:19:56.226+0800 I NETWORK  [conn10] end connection 127.0.0.1:49480 (2 connections now open)
+2015-09-19T21:19:56.226+0800 I NETWORK  [conn11] end connection 127.0.0.1:49481 (1 connection now open)
+2015-09-19T21:19:56.227+0800 I NETWORK  [conn13] end connection 127.0.0.1:49483 (0 connections now open)
+2015-09-19T21:21:08.563+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49485 #14 (1 connection now open)
+2015-09-19T21:21:08.564+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49486 #15 (2 connections now open)
+2015-09-19T21:21:08.564+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49487 #16 (3 connections now open)
+2015-09-19T21:21:08.564+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49488 #17 (4 connections now open)
+2015-09-19T21:21:08.564+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49489 #18 (5 connections now open)
+2015-09-19T21:25:46.497+0800 I INDEX    [conn16] allocating new ns file data\test.ns, filling with zeroes...
+2015-09-19T21:25:47.100+0800 I STORAGE  [FileAllocator] allocating new datafile data\test.0, filling with zeroes...
+2015-09-19T21:25:47.103+0800 I STORAGE  [FileAllocator] done allocating datafile data\test.0, size: 64MB,  took 0.001 secs
+2015-09-19T21:25:47.114+0800 I WRITE    [conn16] insert test.users query: { xh: "a", userid: "bbb", data: "String", _id: ObjectId('55fd625a4f648b7c249dc038') } ninserted:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, MMAPV1Journal: { acquireCount: { w: 8 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 249 } }, Database: { acquireCount: { w: 1, W: 1 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 4 } } } 617ms
+2015-09-19T21:25:47.114+0800 I COMMAND  [conn16] command test.$cmd command: insert { insert: "users", documents: [ { xh: "a", userid: "bbb", data: "String", _id: ObjectId('55fd625a4f648b7c249dc038') } ], ordered: true, writeConcern: { w: 1 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, MMAPV1Journal: { acquireCount: { w: 8 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 249 } }, Database: { acquireCount: { w: 1, W: 1 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 4 } } } 617ms
+2015-09-19T21:27:37.300+0800 I NETWORK  [conn15] end connection 127.0.0.1:49486 (4 connections now open)
+2015-09-19T21:27:37.300+0800 I NETWORK  [conn14] end connection 127.0.0.1:49485 (3 connections now open)
+2015-09-19T21:27:37.301+0800 I NETWORK  [conn16] end connection 127.0.0.1:49487 (2 connections now open)
+2015-09-19T21:27:37.301+0800 I NETWORK  [conn17] end connection 127.0.0.1:49488 (1 connection now open)
+2015-09-19T21:27:37.301+0800 I NETWORK  [conn18] end connection 127.0.0.1:49489 (0 connections now open)
+2015-09-19T21:28:30.534+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49522 #19 (1 connection now open)
+2015-09-19T21:33:25.311+0800 I NETWORK  [conn19] end connection 127.0.0.1:49522 (0 connections now open)
+2015-09-19T22:33:59.446+0800 I CONTROL  Ctrl-C signal
+2015-09-19T22:33:59.446+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-09-19T22:33:59.446+0800 I CONTROL  [consoleTerminate] now exiting
+2015-09-19T22:33:59.446+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-09-19T22:33:59.446+0800 I NETWORK  [consoleTerminate] closing listening socket: 532
+2015-09-19T22:33:59.447+0800 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-09-19T22:33:59.447+0800 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-09-19T22:33:59.447+0800 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-09-19T22:33:59.447+0800 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-09-19T22:33:59.553+0800 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-09-19T22:33:59.554+0800 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-09-19T22:33:59.555+0800 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-09-19T22:33:59.651+0800 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-09-19T22:33:59.651+0800 I JOURNAL  [durability] Durability thread stopped
+2015-09-19T22:33:59.652+0800 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-09-19T22:33:59.665+0800 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-09-19T22:33:59.665+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-09-19T22:33:59.666+0800 I CONTROL  [consoleTerminate] dbexit:  rc: 12

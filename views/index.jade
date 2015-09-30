@@ -1,0 +1,37 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title 成绩表
+		style.
+			table{
+				border-collapse: collapse;
+			}
+			td{
+				border: 1px solid #000;
+			}
+	body
+		//- div #{JSON.stringify(data)}
+		table
+			tr
+				th 学年
+				th 学期
+				th 学号
+				th 姓名
+				th 课程名
+				th 学分
+				th 成绩
+				th 课程类型
+			- each v1, d1 in data
+					- each value, key in v1.data.rList
+						tr
+							td= value['XN']
+							td= value['XQ']
+							td= value['XH']
+							td= value['XM']
+							td= value['KCMC']
+							td= value['XF']
+							td= value['CJ']
+							td= value['KCXZ']
+
+

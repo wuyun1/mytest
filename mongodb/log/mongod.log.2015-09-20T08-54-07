@@ -1,0 +1,188 @@
+2015-09-20T12:24:46.538+0800 I JOURNAL  [initandlisten] journal dir=data\journal
+2015-09-20T12:24:46.539+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-09-20T12:24:46.781+0800 I JOURNAL  [durability] Durability thread started
+2015-09-20T12:24:46.781+0800 I JOURNAL  [journal writer] Journal writer thread started
+2015-09-20T12:24:46.917+0800 I CONTROL  [initandlisten] MongoDB starting : pid=10480 port=12345 dbpath=data 64-bit host=DESKTOP-SUP0V1H
+2015-09-20T12:24:46.917+0800 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-09-20T12:24:46.917+0800 I CONTROL  [initandlisten] db version v3.0.6
+2015-09-20T12:24:46.917+0800 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-09-20T12:24:46.918+0800 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-09-20T12:24:46.918+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-09-20T12:24:46.918+0800 I CONTROL  [initandlisten] options: { config: "conf/mongod.conf", net: { port: 12345 }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2015-09-20T12:24:46.975+0800 I NETWORK  [initandlisten] waiting for connections on port 12345
+2015-09-20T12:37:58.952+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57670 #1 (1 connection now open)
+2015-09-20T12:39:12.272+0800 I NETWORK  [conn1] end connection 127.0.0.1:57670 (0 connections now open)
+2015-09-20T12:42:00.288+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57681 #2 (1 connection now open)
+2015-09-20T12:42:00.288+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57682 #3 (2 connections now open)
+2015-09-20T12:42:00.289+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57683 #4 (3 connections now open)
+2015-09-20T12:42:00.289+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57684 #5 (4 connections now open)
+2015-09-20T12:42:00.290+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57685 #6 (5 connections now open)
+2015-09-20T12:45:55.604+0800 I NETWORK  [conn2] end connection 127.0.0.1:57681 (4 connections now open)
+2015-09-20T12:45:55.605+0800 I NETWORK  [conn3] end connection 127.0.0.1:57682 (3 connections now open)
+2015-09-20T12:45:55.605+0800 I NETWORK  [conn4] end connection 127.0.0.1:57683 (2 connections now open)
+2015-09-20T12:45:55.605+0800 I NETWORK  [conn5] end connection 127.0.0.1:57684 (1 connection now open)
+2015-09-20T12:45:55.606+0800 I NETWORK  [conn6] end connection 127.0.0.1:57685 (0 connections now open)
+2015-09-20T12:45:59.445+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57695 #7 (1 connection now open)
+2015-09-20T12:47:15.372+0800 I NETWORK  [conn7] end connection 127.0.0.1:57695 (0 connections now open)
+2015-09-20T12:47:42.289+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57696 #8 (1 connection now open)
+2015-09-20T12:47:42.290+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57697 #9 (2 connections now open)
+2015-09-20T12:47:42.291+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57698 #10 (3 connections now open)
+2015-09-20T12:47:42.292+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57699 #11 (4 connections now open)
+2015-09-20T12:47:42.294+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57700 #12 (5 connections now open)
+2015-09-20T12:49:55.966+0800 I NETWORK  [conn10] end connection 127.0.0.1:57698 (4 connections now open)
+2015-09-20T12:49:55.966+0800 I NETWORK  [conn11] end connection 127.0.0.1:57699 (3 connections now open)
+2015-09-20T12:49:55.966+0800 I NETWORK  [conn8] end connection 127.0.0.1:57696 (2 connections now open)
+2015-09-20T12:49:55.967+0800 I NETWORK  [conn9] end connection 127.0.0.1:57697 (1 connection now open)
+2015-09-20T12:49:55.967+0800 I NETWORK  [conn12] end connection 127.0.0.1:57700 (0 connections now open)
+2015-09-20T12:49:57.549+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57707 #13 (1 connection now open)
+2015-09-20T12:50:44.889+0800 I NETWORK  [conn13] end connection 127.0.0.1:57707 (0 connections now open)
+2015-09-20T12:51:17.529+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57715 #14 (1 connection now open)
+2015-09-20T12:51:17.530+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57716 #15 (2 connections now open)
+2015-09-20T12:51:17.531+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57717 #16 (3 connections now open)
+2015-09-20T12:51:17.533+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57718 #17 (4 connections now open)
+2015-09-20T12:51:17.536+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57719 #18 (5 connections now open)
+2015-09-20T12:51:37.541+0800 I NETWORK  [conn15] end connection 127.0.0.1:57716 (4 connections now open)
+2015-09-20T12:51:37.542+0800 I NETWORK  [conn17] end connection 127.0.0.1:57718 (3 connections now open)
+2015-09-20T12:51:37.542+0800 I NETWORK  [conn14] end connection 127.0.0.1:57715 (2 connections now open)
+2015-09-20T12:51:37.542+0800 I NETWORK  [conn16] end connection 127.0.0.1:57717 (1 connection now open)
+2015-09-20T12:51:37.543+0800 I NETWORK  [conn18] end connection 127.0.0.1:57719 (0 connections now open)
+2015-09-20T12:51:40.192+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57720 #19 (1 connection now open)
+2015-09-20T12:51:40.193+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57721 #20 (2 connections now open)
+2015-09-20T12:51:40.194+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57722 #21 (3 connections now open)
+2015-09-20T12:51:40.195+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57723 #22 (4 connections now open)
+2015-09-20T12:51:40.196+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57724 #23 (5 connections now open)
+2015-09-20T12:52:07.007+0800 I NETWORK  [conn22] end connection 127.0.0.1:57723 (4 connections now open)
+2015-09-20T12:52:07.007+0800 I NETWORK  [conn19] end connection 127.0.0.1:57720 (3 connections now open)
+2015-09-20T12:52:07.008+0800 I NETWORK  [conn20] end connection 127.0.0.1:57721 (2 connections now open)
+2015-09-20T12:52:07.008+0800 I NETWORK  [conn21] end connection 127.0.0.1:57722 (1 connection now open)
+2015-09-20T12:52:07.008+0800 I NETWORK  [conn23] end connection 127.0.0.1:57724 (0 connections now open)
+2015-09-20T12:52:10.166+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57731 #24 (1 connection now open)
+2015-09-20T12:52:10.166+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57732 #25 (2 connections now open)
+2015-09-20T12:52:10.166+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57733 #26 (3 connections now open)
+2015-09-20T12:52:10.166+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57734 #27 (4 connections now open)
+2015-09-20T12:52:10.167+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57735 #28 (5 connections now open)
+2015-09-20T12:52:43.290+0800 I NETWORK  [conn24] end connection 127.0.0.1:57731 (4 connections now open)
+2015-09-20T12:52:43.290+0800 I NETWORK  [conn25] end connection 127.0.0.1:57732 (3 connections now open)
+2015-09-20T12:52:43.291+0800 I NETWORK  [conn26] end connection 127.0.0.1:57733 (2 connections now open)
+2015-09-20T12:52:43.291+0800 I NETWORK  [conn27] end connection 127.0.0.1:57734 (1 connection now open)
+2015-09-20T12:52:43.292+0800 I NETWORK  [conn28] end connection 127.0.0.1:57735 (0 connections now open)
+2015-09-20T12:52:45.693+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57738 #29 (1 connection now open)
+2015-09-20T12:52:45.695+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57739 #30 (2 connections now open)
+2015-09-20T12:52:45.695+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57740 #31 (3 connections now open)
+2015-09-20T12:52:45.696+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57741 #32 (4 connections now open)
+2015-09-20T12:52:45.697+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57742 #33 (5 connections now open)
+2015-09-20T12:52:48.573+0800 I NETWORK  [conn29] end connection 127.0.0.1:57738 (4 connections now open)
+2015-09-20T12:52:48.574+0800 I NETWORK  [conn30] end connection 127.0.0.1:57739 (3 connections now open)
+2015-09-20T12:52:48.574+0800 I NETWORK  [conn31] end connection 127.0.0.1:57740 (2 connections now open)
+2015-09-20T12:52:48.574+0800 I NETWORK  [conn32] end connection 127.0.0.1:57741 (1 connection now open)
+2015-09-20T12:52:48.575+0800 I NETWORK  [conn33] end connection 127.0.0.1:57742 (0 connections now open)
+2015-09-20T12:53:40.434+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57743 #34 (1 connection now open)
+2015-09-20T12:53:42.134+0800 I NETWORK  [conn34] end connection 127.0.0.1:57743 (0 connections now open)
+2015-09-20T12:53:47.440+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57744 #35 (1 connection now open)
+2015-09-20T12:53:47.444+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57745 #36 (2 connections now open)
+2015-09-20T12:53:47.445+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57746 #37 (3 connections now open)
+2015-09-20T12:53:47.446+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57747 #38 (4 connections now open)
+2015-09-20T12:53:47.447+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57748 #39 (5 connections now open)
+2015-09-20T12:54:00.922+0800 I NETWORK  [conn36] end connection 127.0.0.1:57745 (4 connections now open)
+2015-09-20T12:54:00.922+0800 I NETWORK  [conn38] end connection 127.0.0.1:57747 (3 connections now open)
+2015-09-20T12:54:00.922+0800 I NETWORK  [conn35] end connection 127.0.0.1:57744 (2 connections now open)
+2015-09-20T12:54:00.923+0800 I NETWORK  [conn37] end connection 127.0.0.1:57746 (1 connection now open)
+2015-09-20T12:54:00.923+0800 I NETWORK  [conn39] end connection 127.0.0.1:57748 (0 connections now open)
+2015-09-20T12:54:51.190+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57749 #40 (1 connection now open)
+2015-09-20T12:54:51.190+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57750 #41 (2 connections now open)
+2015-09-20T12:54:51.192+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57751 #42 (3 connections now open)
+2015-09-20T12:54:51.193+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57752 #43 (4 connections now open)
+2015-09-20T12:54:51.193+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57753 #44 (5 connections now open)
+2015-09-20T12:54:55.001+0800 I NETWORK  [conn42] end connection 127.0.0.1:57751 (4 connections now open)
+2015-09-20T12:54:55.001+0800 I NETWORK  [conn41] end connection 127.0.0.1:57750 (4 connections now open)
+2015-09-20T12:54:55.002+0800 I NETWORK  [conn40] end connection 127.0.0.1:57749 (2 connections now open)
+2015-09-20T12:54:55.004+0800 I NETWORK  [conn43] end connection 127.0.0.1:57752 (1 connection now open)
+2015-09-20T12:54:55.004+0800 I NETWORK  [conn44] end connection 127.0.0.1:57753 (0 connections now open)
+2015-09-20T12:55:43.313+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57754 #45 (1 connection now open)
+2015-09-20T12:55:43.314+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57755 #46 (2 connections now open)
+2015-09-20T12:55:43.315+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57756 #47 (3 connections now open)
+2015-09-20T12:55:43.316+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57757 #48 (4 connections now open)
+2015-09-20T12:55:43.316+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57758 #49 (5 connections now open)
+2015-09-20T12:55:59.739+0800 I NETWORK  [conn45] end connection 127.0.0.1:57754 (4 connections now open)
+2015-09-20T12:55:59.740+0800 I NETWORK  [conn48] end connection 127.0.0.1:57757 (3 connections now open)
+2015-09-20T12:55:59.740+0800 I NETWORK  [conn46] end connection 127.0.0.1:57755 (2 connections now open)
+2015-09-20T12:55:59.741+0800 I NETWORK  [conn47] end connection 127.0.0.1:57756 (1 connection now open)
+2015-09-20T12:55:59.741+0800 I NETWORK  [conn49] end connection 127.0.0.1:57758 (0 connections now open)
+2015-09-20T12:56:01.621+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57760 #50 (1 connection now open)
+2015-09-20T12:56:28.157+0800 I INDEX    [conn50] build index on: imooc.imooc properties: { v: 1, key: { user: 1.0 }, name: "user_1", ns: "imooc.imooc" }
+2015-09-20T12:56:28.157+0800 I INDEX    [conn50] 	 building index using bulk method
+2015-09-20T12:56:28.157+0800 I INDEX    [conn50] build index done.  scanned 2 total records. 0 secs
+2015-09-20T12:57:05.420+0800 I NETWORK  [conn50] end connection 127.0.0.1:57760 (0 connections now open)
+2015-09-20T12:57:09.557+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57762 #51 (1 connection now open)
+2015-09-20T12:57:09.559+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57763 #52 (2 connections now open)
+2015-09-20T12:57:09.560+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57764 #53 (3 connections now open)
+2015-09-20T12:57:09.561+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57765 #54 (4 connections now open)
+2015-09-20T12:57:09.562+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57766 #55 (5 connections now open)
+2015-09-20T12:57:17.529+0800 I NETWORK  [conn53] end connection 127.0.0.1:57764 (4 connections now open)
+2015-09-20T12:57:17.530+0800 I NETWORK  [conn54] end connection 127.0.0.1:57765 (3 connections now open)
+2015-09-20T12:57:17.530+0800 I NETWORK  [conn51] end connection 127.0.0.1:57762 (2 connections now open)
+2015-09-20T12:57:17.530+0800 I NETWORK  [conn52] end connection 127.0.0.1:57763 (1 connection now open)
+2015-09-20T12:57:17.531+0800 I NETWORK  [conn55] end connection 127.0.0.1:57766 (0 connections now open)
+2015-09-20T12:57:33.667+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57767 #56 (1 connection now open)
+2015-09-20T12:58:31.759+0800 I NETWORK  [conn56] end connection 127.0.0.1:57767 (0 connections now open)
+2015-09-20T12:58:41.605+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57768 #57 (1 connection now open)
+2015-09-20T12:58:41.605+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57769 #58 (2 connections now open)
+2015-09-20T12:58:41.609+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57770 #59 (3 connections now open)
+2015-09-20T12:58:41.609+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57771 #60 (4 connections now open)
+2015-09-20T12:58:41.609+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57772 #61 (5 connections now open)
+2015-09-20T13:04:10.597+0800 I NETWORK  [conn59] end connection 127.0.0.1:57770 (4 connections now open)
+2015-09-20T13:04:10.597+0800 I NETWORK  [conn58] end connection 127.0.0.1:57769 (3 connections now open)
+2015-09-20T13:04:10.597+0800 I NETWORK  [conn57] end connection 127.0.0.1:57768 (2 connections now open)
+2015-09-20T13:04:10.598+0800 I NETWORK  [conn60] end connection 127.0.0.1:57771 (1 connection now open)
+2015-09-20T13:04:10.598+0800 I NETWORK  [conn61] end connection 127.0.0.1:57772 (0 connections now open)
+2015-09-20T13:17:04.934+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58100 #62 (1 connection now open)
+2015-09-20T13:18:18.623+0800 I INDEX    [conn62] allocating new ns file data\chihuo.ns, filling with zeroes...
+2015-09-20T13:18:19.057+0800 I STORAGE  [FileAllocator] allocating new datafile data\chihuo.0, filling with zeroes...
+2015-09-20T13:18:19.057+0800 I STORAGE  [FileAllocator] creating directory data\_tmp
+2015-09-20T13:18:19.064+0800 I STORAGE  [FileAllocator] done allocating datafile data\chihuo.0, size: 64MB,  took 0.005 secs
+2015-09-20T13:18:19.077+0800 I COMMAND  [conn62] command chihuo.$cmd command: create { create: "users" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 6 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 365 } }, Database: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 4 } } } 454ms
+2015-09-20T13:19:54.860+0800 I NETWORK  [conn62] end connection 127.0.0.1:58100 (0 connections now open)
+2015-09-20T16:27:58.807+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58937 #63 (1 connection now open)
+2015-09-20T16:27:58.808+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58938 #64 (2 connections now open)
+2015-09-20T16:27:58.811+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58939 #65 (3 connections now open)
+2015-09-20T16:27:58.812+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58940 #66 (4 connections now open)
+2015-09-20T16:27:58.813+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58941 #67 (5 connections now open)
+2015-09-20T16:29:11.168+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58946 #68 (6 connections now open)
+2015-09-20T16:32:42.561+0800 I NETWORK  [conn68] end connection 127.0.0.1:58946 (5 connections now open)
+2015-09-20T16:32:44.581+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58961 #69 (6 connections now open)
+2015-09-20T16:32:54.419+0800 I NETWORK  [conn69] end connection 127.0.0.1:58961 (5 connections now open)
+2015-09-20T16:33:31.950+0800 I NETWORK  [conn63] end connection 127.0.0.1:58937 (4 connections now open)
+2015-09-20T16:33:31.950+0800 I NETWORK  [conn65] end connection 127.0.0.1:58939 (3 connections now open)
+2015-09-20T16:33:31.950+0800 I NETWORK  [conn64] end connection 127.0.0.1:58938 (2 connections now open)
+2015-09-20T16:33:31.953+0800 I NETWORK  [conn66] end connection 127.0.0.1:58940 (1 connection now open)
+2015-09-20T16:33:31.953+0800 I NETWORK  [conn67] end connection 127.0.0.1:58941 (0 connections now open)
+2015-09-20T16:33:53.898+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58963 #70 (1 connection now open)
+2015-09-20T16:33:53.899+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58964 #71 (2 connections now open)
+2015-09-20T16:33:53.900+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58965 #72 (3 connections now open)
+2015-09-20T16:33:53.900+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58966 #73 (4 connections now open)
+2015-09-20T16:33:53.901+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58967 #74 (5 connections now open)
+2015-09-20T16:42:57.535+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59049 #75 (6 connections now open)
+2015-09-20T16:54:04.997+0800 I CONTROL  Ctrl-C signal
+2015-09-20T16:54:04.997+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-09-20T16:54:04.997+0800 I CONTROL  [consoleTerminate] now exiting
+2015-09-20T16:54:04.998+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-09-20T16:54:04.998+0800 I NETWORK  [consoleTerminate] closing listening socket: 536
+2015-09-20T16:54:04.998+0800 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-09-20T16:54:04.998+0800 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-09-20T16:54:04.998+0800 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-09-20T16:54:04.998+0800 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-09-20T16:54:05.000+0800 I NETWORK  [conn71] end connection 127.0.0.1:58964 (5 connections now open)
+2015-09-20T16:54:05.001+0800 I NETWORK  [conn73] end connection 127.0.0.1:58966 (5 connections now open)
+2015-09-20T16:54:05.002+0800 I NETWORK  [conn72] end connection 127.0.0.1:58965 (5 connections now open)
+2015-09-20T16:54:05.002+0800 I NETWORK  [conn74] end connection 127.0.0.1:58967 (5 connections now open)
+2015-09-20T16:54:05.003+0800 I NETWORK  [conn70] end connection 127.0.0.1:58963 (5 connections now open)
+2015-09-20T16:54:05.003+0800 I NETWORK  [conn75] end connection 127.0.0.1:59049 (4 connections now open)
+2015-09-20T16:54:05.144+0800 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-09-20T16:54:05.145+0800 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-09-20T16:54:05.146+0800 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-09-20T16:54:05.202+0800 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-09-20T16:54:05.202+0800 I JOURNAL  [durability] Durability thread stopped
+2015-09-20T16:54:05.202+0800 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-09-20T16:54:05.212+0800 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-09-20T16:54:05.212+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-09-20T16:54:05.212+0800 I CONTROL  [consoleTerminate] dbexit:  rc: 12
